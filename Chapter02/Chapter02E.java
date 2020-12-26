@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Chapter02E {
     public static final Scanner scanner = new Scanner(System.in);
-	
     public static boolean number(int N)
     {
 		if( N == 1)

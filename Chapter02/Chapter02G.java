@@ -12,7 +12,7 @@ public class Chapter02G {
 	{
 		for(int i = 0 ; i < n ; i++)
 		{
-            for(int j = 0; j < n-1-i; j++)  // 시간 복잡도 고려하여, 안한 부분만 탐색 할 수 있게, i값을 빼주었습니다.
+            for(int j = 0; j < n-1-i; j++)  // 시간 복잡도를 고려하여, 안한 부분만 탐색 할 수 있게, i값을 빼주었습니다.
             {
                 if(data[j] > data[j+1])
                 {
